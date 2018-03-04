@@ -197,7 +197,9 @@ public final class QueryMetricsAndActivityLogs {
     private static void addBlobTransactions(String storageConnectionString) throws IOException, URISyntaxException, InvalidKeyException, StorageException {
         // Get the script to upload
         //
-        InputStream scriptFileAsStream = QueryMetricsAndActivityLogs.class.getResourceAsStream("/install_apache.sh");
+        InputStream scriptFileAsStream = QueryMetricsAndActivityLogs
+                .class
+                .getResourceAsStream("/install_apache.sh");
 
         // Get the size of the stream
         //

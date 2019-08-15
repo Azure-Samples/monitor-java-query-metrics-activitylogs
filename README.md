@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Monitor
-platforms: java
-author: yaohaizh
+extensions:
+- services: Monitor
+- platforms: java
 ---
 
-## Getting Started with Monitor - Query Metrics And Activity Logs - in Java ##
+# Getting Started with Monitor - Query Metrics And Activity Logs - in Java #
 
 
   This sample shows examples of retrieving metrics and activity logs for Storage Account.

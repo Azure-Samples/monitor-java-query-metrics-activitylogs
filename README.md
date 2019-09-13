@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Monitor
-- platforms: java
+description: "Getting Started with Monitor - Query Metrics And Activity Logs - in Java"
+urlFragment: monitor-java-query-metrics-activitylogs
 ---
 
 # Getting Started with Monitor - Query Metrics And Activity Logs - in Java #
